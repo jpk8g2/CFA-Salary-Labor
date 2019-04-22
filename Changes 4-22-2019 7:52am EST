@@ -1,0 +1,13 @@
+Uploaded the first version of the following files:
+        • App.config
+        • Calculator.cs
+        • EmployeeSchedule.xml
+        • EmployeeWage.xml
+        • Program.cs
+        
+App.config will be used as a configuration file, holding file paths for both EmployeeSchedule.xml and EmployeeWage.xml
+Calculator.cs holds the bulk of the code, calculating and storing data values such as Productivity Average and Sales Percent
+Program.cs currently holds nothing as Calculator.cs is not finished
+EmployeeSchedule.xml and EmployeeWage.xml are to be used as placeholder values for employees and hold testing information
+
+TODO: Complete the calculation of Sales Percentage within Calculator.cs
