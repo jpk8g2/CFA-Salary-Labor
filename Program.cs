@@ -9,7 +9,8 @@ namespace CFA_Salary_Labor
     {
         public static void Main(string[] args)
         {
-            Calculator.CalculateLastHourAverage();
+            Calculator.Start(); // DO NOT TOUCH
+                                // ADD YOUR OWN CODE UNDERNEATH
         }
     }
 }

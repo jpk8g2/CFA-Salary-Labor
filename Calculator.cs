@@ -287,8 +287,8 @@ namespace CFA_Salary_Labor
             {
                 if(IdOfNode(WageNodeList[x]) == id) // If the id of the employee is found
                 {
-                    //string hour = (date > 12 ? date - 12 : date) + (date >= 12 ? "pm" : "am"); // Formats the hour
-                    return TurnNodeIntoTime(ScheduleNodeList[x], /*hour*/"4:00pm"); // Returns the percent of the hour working
+                    string hour = (date > 12 ? date - 12 : date) + (date >= 12 ? "pm" : "am"); // Formats the hour
+                    return TurnNodeIntoTime(ScheduleNodeList[x], hour); // Returns the percent of the hour working
                 }
             }
 
