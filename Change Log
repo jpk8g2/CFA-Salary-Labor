@@ -1,0 +1,37 @@
+4-22-2019 7:52am EST
+Uploaded the first version of the following files:
+        • App.config
+        • Calculator.cs
+        • EmployeeSchedule.xml
+        • EmployeeWage.xml
+        • Program.cs
+        
+App.config will be used as a configuration file, holding file paths for both EmployeeSchedule.xml and EmployeeWage.xml
+Calculator.cs holds the bulk of the code, calculating and storing data values such as Productivity Average and Sales Percent
+Program.cs currently holds nothing as Calculator.cs is not finished
+EmployeeSchedule.xml and EmployeeWage.xml are to be used as placeholder values for employees and hold testing information
+
+TODO: Complete the calculation of Sales Percentage within Calculator.cs
+
+4-23-2019 6:09pm EST
+Updated the following files:
+        • Calculator.cs
+                ○ Added the calculation of Sales Percentage
+                ○ Created a Start() function that sets the environment of the vairables
+                        • Must be run daily to pull correct schedule from system
+                ○ Now can pull a seperate schedule based on the day of the week
+                ○ Added error catching against unset variables (division by zero, null reference pointer, etc)
+        • EmployeeSchedule.xml
+                ○ Added tags for Monday - Saturday for seperate daily schedules
+        • EmployeeWage.xml
+                ○ Updated employee information
+        • Program.cs
+                ○ Removed test code
+                ○ User can now test code from Calculator.cs in the main function of Program.cs
+                        • WARNING: EDIT THE CODE FROM 'Calculator.cs' AT YOUR OWN RISK
+
+TODO: 
+        • Add a GUI to help be more user friendly
+        • Create a way to update the schedule of employees
+        • Find and squash more bugs
+        • Add more error catching
