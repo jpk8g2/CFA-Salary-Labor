@@ -9,7 +9,7 @@ namespace CFA_Salary_Labor
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Calculator.FindEmployeeClockedIn("Anthony Panarello"));
+            Calculator.CalculateLastHourAverage();
         }
     }
 }
