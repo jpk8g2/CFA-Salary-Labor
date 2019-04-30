@@ -60,6 +60,23 @@ Created a new file:
                         • public static double TurnNodeIntoTime(XmlNode node)
 Updated the following files:
         • Program.cs:
-                ○ Contains the old Calculator.cs method: public static void WriteToLog(string text)
+                ○ Contains a new method: public static void WriteToLog(string text)
         • Calculator.cs:
-                ○ Moved the above methods to Employee.cs
+                ○ Moved the aforementioned methods to Employee.cs
+                
+Misc.:
+        • Added error prevention to previously unprotected methods
+        • Updated some comments to be more relevant
+        • Updated debugging:
+                ○ Removed the instance variable: private static readonly boolean DEBUG
+                ○ Added the following instance variables to Program.cs:
+                        • private static readonly StreamWriter logWrite = File.AppendText(ConfigurationManager.AppSettings["LogPath"]);
+                        • private static bool hasDate = false;
+                ○ Debugging information now saved to a text file named log.txt through logWrite, appending text to the end of the file
+                ○ Adds the date of information written, kept track by the instance variable hasDate
+TODO:
+        • Add a GUI to help be more user friendly
+        • Create a way to update the schedule of employees
+        • Implement better implementation of a date for debugging information in the log file
+        • Add comments for methods and instance variables without
+        • Possibly add delegates to make code look neater and more efficient
