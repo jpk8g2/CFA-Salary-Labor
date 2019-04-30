@@ -77,6 +77,7 @@ Misc.:
                         • private static bool hasDate = false;
                 ○ Debugging information now saved to a text file named log.txt through logWrite, appending text to the end of the file
                 ○ Adds the date of information written, kept track by the instance variable hasDate
+                
 TODO:
         • Add a GUI to help be more user friendly
         • Create a way to update the schedule of employees
