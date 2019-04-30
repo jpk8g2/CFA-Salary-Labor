@@ -45,11 +45,11 @@ Created a new file:
                 ○ New methods have been added to Employee.cs:
                         • public static XmlNodeList GetEmployeeWageList()
                         • public static XmlNodeList GetEmployeeScheduleList()
-                ○ The following methods have been made public:
+                ○ The previously private methods have been made public:
                         • public static string NameOfNode(XmlNode node)
                         • public static double WageOfNode(XmlNode node)
                         • public static int IdOfNode(XmlNode node)
-                ○ The following methods have been moved:
+                ○ The following methods have been moved from Calculator.cs into this file:
                         • public static void Start()
                         • public static double FindWageOfEmployee(string nameOfEmployee)
                         • public static double FindWageOfEmployee(int id)
