@@ -13,6 +13,7 @@ EmployeeSchedule.xml and EmployeeWage.xml are to be used as placeholder values f
 
 TODO: Complete the calculation of Sales Percentage within Calculator.cs
 
+
 4-23-2019 6:09pm EST
 Updated the following files:
         • Calculator.cs
@@ -36,6 +37,7 @@ TODO:
         • Find and squash more bugs
         • Add more error catching
         
+        
 4-30-2019 8:12am EST
 Created a new file:
         • Employee.cs
@@ -58,6 +60,7 @@ Created a new file:
                         • public static double WageOfNode(XmlNode node)
                         • public static int IdOfNode(XmlNode node)
                         • public static double TurnNodeIntoTime(XmlNode node)
+                        
 Updated the following files:
         • Program.cs:
                 ○ Contains a new method: public static void WriteToLog(string text)
