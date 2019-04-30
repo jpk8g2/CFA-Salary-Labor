@@ -35,3 +35,31 @@ TODO:
         • Create a way to update the schedule of employees
         • Find and squash more bugs
         • Add more error catching
+        
+4-30-2019 8:12am EST
+Created a new file:
+        • Employee.cs
+                ○ Now contains methods from Calculator.cs for easier management and neater code
+                ○ New methods have been added to Employee.cs:
+                        • public static XmlNodeList GetEmployeeWageList()
+                        • public static XmlNodeList GetEmployeeScheduleList()
+                ○ The following methods have been made public:
+                        • public static string NameOfNode(XmlNode node)
+                        • public static double WageOfNode(XmlNode node)
+                        • public static int IdOfNode(XmlNode node)
+                ○ The following methods have been moved:
+                        • public static void Start()
+                        • public static double FindWageOfEmployee(string nameOfEmployee)
+                        • public static double FindWageOfEmployee(int id)
+                        • public static string FindNameOfEmpoyee(int id)
+                        • public static double FindEmployeeClockedIn(string nameOfEmployee)
+                        • public static double FindEmployeeClockedIn(int id)
+                        • public static string NameOfNode(XmlNode node)
+                        • public static double WageOfNode(XmlNode node)
+                        • public static int IdOfNode(XmlNode node)
+                        • public static double TurnNodeIntoTime(XmlNode node)
+Updated the following files:
+        • Program.cs:
+                ○ Contains the old Calculator.cs method: public static void WriteToLog(string text)
+        • Calculator.cs:
+                ○ Moved the above methods to Employee.cs
